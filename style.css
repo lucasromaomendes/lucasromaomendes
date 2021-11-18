@@ -1,0 +1,110 @@
+body{
+     background-color:White;
+     background-attachment: fixed;
+     font-size:30px;
+     color:yellow
+     text-transform:lowercase;
+    }
+    p{
+     color:#00FF00;
+     font-size:30px;
+     text-transform:lowercase;
+     font-family:arial,helvetica;
+     font-style:oblique;
+     font-variant:small-caps;
+     font-weight:900;
+    }
+    h1{
+     color:white;
+     font-size:50px;
+     background-position:center top;
+     text-transform:uppercase;
+     font-weight:bold;
+     font-family:helvetica, arial;
+    }
+    h2{
+     color:brown;
+     font-size:50px;
+     text-transform:uppercase;
+     font-weight:lighter;
+     font-family:wingdings;
+    }
+    
+    }
+    .zoom{
+     overflow:visible;
+    }
+    .zoom img{
+     border-radius:10%;
+     transition: all 1s;
+    }
+    .zoom: hover img{
+     transform: scale(1.6);
+     border-radius:100%;
+     opacity:0.4;
+    }
+    .absolutA1{
+     position: absolute;
+     border:solid #BDB76B 10px;
+     background-color:#EE82EE;
+     left:50px;
+     top:10px;
+    }
+    .absolutA2{
+     position: absolute;
+     border:solid #00FF00 10px;
+     background-color:#c0c0c0;
+     left:1px; 
+     top:20px;
+    }
+    .absolutB{
+     position: absolute;
+     border:solid #00BFFF 10px;
+     background-color:#9ACD32;
+     left:40px;
+     top:400px;
+    }
+    .header{
+     overflow:hidden;
+     padding:20px 20px;
+     background-color:#B8860B;
+    }
+    .header a{
+     float:left;
+     color:#000000;
+     text-align:center;
+     text-decoration:none;
+     font-size:20px;
+     line-height:32px;
+     border-radius:5%;
+     padding:10px;
+    }
+    .header a.logo{
+     font-size:25px;
+     font-weight:bold;
+    }
+    .header a:hover{
+     backgroung-color:#FF0000;
+     color:#000000;
+    }
+    .header-right{
+     float:right;
+    }
+    .header a.ativa{
+     background-color:#8B4513;
+     color:#FFFFFF;
+    }
+    .divimg2 {
+    background: #eeeeee;
+    width: 400px;
+    display: table;
+    }
+    .divimg2 ul {
+    padding: 0 20px;
+    }
+    .divimg2 ul li {
+    display: inline-block;
+    }
+    .divimg2 img {
+    float: right; 
+    }
